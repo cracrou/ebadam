@@ -1,0 +1,51 @@
+h1,h2{
+    text-align:center;
+    
+}
+
+h2{
+    font-family: Helvetica W01,Microsoft YaHei,微软雅黑,SimHei,黑体,PingFang SC,萍方,Noto Sans,sans-serif;
+    font-size:1.5em;
+    font-weight:100
+}
+
+h1 {
+    font-family: Helvetica W01,Microsoft YaHei,微软雅黑,SimHei,黑体,PingFang SC,萍方,Noto Sans,sans-serif;
+    font-size: 3em;
+    font-weight:100
+}
+.block_pres{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    text-align:center;
+
+}
+
+
+.block_pres img{
+  width: 75%;
+  height: 75%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+body {
+
+    background-color: rgb(244, 244, 240);
+}
+.link_accueil{
+text-decoration: None;
+color:black;
+font-size:1.5em;
+font-family: Helvetica W01,Microsoft YaHei,微软雅黑,SimHei,黑体,PingFang SC,萍方,Noto Sans,sans-serif;
+}
+
+
+
+.block_pres img:hover{
+    border-radius: 10px;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+
+
+}
